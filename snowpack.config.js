@@ -5,6 +5,6 @@ module.exports = {
     src: '/_dist_',
   },
   buildOptions: {
-    baseUrl: 'https://levelstudiomx.github.io/workshop-1-fetch',
+    baseUrl: 'https://levelstudiomx.github.io/workshop-1-fetch/build',
   },
 }
