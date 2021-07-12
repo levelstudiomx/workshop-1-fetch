@@ -1,0 +1,13 @@
+@import "tailwindcss/dist/base.css";
+@import "tailwindcss/dist/components.css";
+@import "tailwindcss/dist/utilities.css";
+
+.price {
+  background: #504732;
+  color: #e4cf7c;
+}
+
+.imagen {
+  display: block;
+  width: 180px;
+}

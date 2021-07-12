@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="Web site created using create-snowpack-app" />
+	<!--
+		Snowpack will replace %PUBLIC_URL% with the value you have for `baseUrl` in `snowpack.config.js`.
+		Make sure to update it with your GitHub Page URL. https://<your-username>.github.io/<your-repo-name>
+
+		More about config options:
+		- https://www.snowpack.dev/reference/configuration#buildoptions.baseurl
+	-->
+	<link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/_dist_/index.css" />
+	<title>La casa del aguacate</title>
+</head>
+
+<body class="bg-gradient-to-b from-green-400 to-green-900">
+
+	<!--
+		This HTML file is a template.
+
+		To begin the development, run `npm start` or `yarn start`.
+		To create a production bundle, use `npm run build` or `yarn build`.
+
+		Start modyfing from here.
+	-->
+	<div class="container mx-auto">
+		<h1 class="text-3xl text-green-100 font-light text-center p-20 md:py-40">
+			La casa del aguacate
+		</h1>
+		<div class="mx-auto w-98% grid grid-cols-1 md:grid-cols-3 justify-center items-center gap-4 pb-16 mx-auto" id="app">
+		</div>
+	</div>
+
+
+	<!-- Add more scripts here -->
+	<script type="module" src="%PUBLIC_URL%/_dist_/index.js"></script>
+
+</body>
+
+</html>

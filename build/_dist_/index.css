@@ -1,0 +1,13 @@
+@import "../_snowpack/pkg/tailwindcss/dist/base.css";
+@import "../_snowpack/pkg/tailwindcss/dist/components.css";
+@import "../_snowpack/pkg/tailwindcss/dist/utilities.css";
+
+.price {
+  background: #504732;
+  color: #e4cf7c;
+}
+
+.imagen {
+  display: block;
+  width: 180px;
+}
